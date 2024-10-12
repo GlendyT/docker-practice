@@ -9,7 +9,7 @@ services:
       target: ${STAGE}
       dockerfile: Dockerfile
 
-    image: glendyt/teslo-shop-backend
+    image: glendyt/teslo-shop-backend:2.5.0
     container_name: nest-app
     ports:
       - ${PORT}:${PORT}
